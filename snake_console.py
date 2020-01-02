@@ -4,6 +4,8 @@ import os
 import keyboard
 from random import randint
 
+input("Use w,s,a,d to play \npress enter to continue\n")
+
 class globalVars():
     pass
 
@@ -117,7 +119,6 @@ def askinput():
     except:
         return 0
     return 1
-
 
 while askinput():
     pass
